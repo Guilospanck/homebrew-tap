@@ -1,13 +1,13 @@
 cask "ai-usage-bar" do
-  version "1.0"
-  sha256 "60a4309c759187afa7c6c576a66e61261481ce55b19cb4cf92070af39f31f4e6"
+  version "1.0.1"
+  sha256 "57d5eaf6b03ee436b72d70759b554c9b7f695df9a889c067a298ab4fa9113876"
 
   url "https://github.com/Guilospanck/ai-usage-bar/releases/download/v#{version}/AI-Usage-Bar-#{version}.zip"
   name "AI Usage Bar"
   desc "Menu-bar app showing Claude/Codex usage"
   homepage "https://github.com/Guilospanck/ai-usage-bar"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "AI Usage Bar.app"
 
