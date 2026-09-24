@@ -1,28 +1,28 @@
 class Modelgen < Formula
   desc "Generate 3D models (GLB, USDZ) from a CLI or an MCP server"
   homepage "https://github.com/Guilospanck/modelgen"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Guilospanck/modelgen/releases/download/v0.2.1/modelgen-0.2.1-darwin-arm64.tar.gz"
-      sha256 "af69e727844759fa5360d20680721c71cb7499ba6a0f4afaa48fae70929dc7c1"
+      url "https://github.com/Guilospanck/modelgen/releases/download/v0.3.0/modelgen-0.3.0-darwin-arm64.tar.gz"
+      sha256 "88fc0f9f9c447956f9784494eefe34c5abe7641f62bc970df71140ffc5d9baca"
     end
     on_intel do
-      url "https://github.com/Guilospanck/modelgen/releases/download/v0.2.1/modelgen-0.2.1-darwin-x64.tar.gz"
-      sha256 "f8e565c209cc50bfa5c1acfdeb1eba042f6f34c2b3b069d14fe6d439483b293c"
+      url "https://github.com/Guilospanck/modelgen/releases/download/v0.3.0/modelgen-0.3.0-darwin-x64.tar.gz"
+      sha256 "941e487a6d7c7d36dc48911367ea960436c8e1e21f20d49fd257ca9c3b1520fb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Guilospanck/modelgen/releases/download/v0.2.1/modelgen-0.2.1-linux-arm64.tar.gz"
-      sha256 "3f8ad3fb66cb31e38e12f8ee176bde58b8cfcf97ff8fb5d9a3442f199ebe5004"
+      url "https://github.com/Guilospanck/modelgen/releases/download/v0.3.0/modelgen-0.3.0-linux-arm64.tar.gz"
+      sha256 "87be1c27500cd2fba8295efed19e222d784d2055ce3af36a035968d7627bdb33"
     end
     on_intel do
-      url "https://github.com/Guilospanck/modelgen/releases/download/v0.2.1/modelgen-0.2.1-linux-x64.tar.gz"
-      sha256 "6dce5b3f9f3e754faf5b9b62ca22cabae7279be37e2ea455e31babd5d618e812"
+      url "https://github.com/Guilospanck/modelgen/releases/download/v0.3.0/modelgen-0.3.0-linux-x64.tar.gz"
+      sha256 "02a001f316398a8f1c53ba3dbe3ddddabff9f4b64edd2f7000d419257f0d8ca8"
     end
   end
 
