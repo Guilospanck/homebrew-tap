@@ -1,6 +1,6 @@
 cask "ai-usage-bar" do
-  version "1.0.4"
-  sha256 "a9da79e7f618ba5498bce9c2b2c3d116cf658dc811ecff2f128ac685ed792c0b"
+  version "1.0.5"
+  sha256 "e4a123cbe493cf4d3b91c5a52fd34db17eff462a845e14ad2356f66800c5f090"
 
   url "https://github.com/Guilospanck/ai-usage-bar/releases/download/v#{version}/AI-Usage-Bar-#{version}.zip"
   name "AI Usage Bar"
@@ -18,5 +18,5 @@ cask "ai-usage-bar" do
         args: ["-dr", "com.apple.quarantine", "{{appdir}}/AI Usage Bar.app"]
   end
 
-  zap trash: "~/Library/Preferences/com.reaktor.aiusagebar.plist"
+  zap trash: "~/Library/Preferences/com.guilospanck.aiusagebar.plist"
 end
