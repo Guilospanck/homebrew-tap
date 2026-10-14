@@ -1,6 +1,6 @@
 cask "ai-usage-bar" do
-  version "1.0.6"
-  sha256 "627f596ab2dd78142f05cad7d9ba2955d6ff480944df85932031fcbfa05d924f"
+  version "1.1.0"
+  sha256 "d052aa806f51a0979c7e7b579d8d0f6a622631764173d5e24ce4d197923defa0"
 
   url "https://github.com/Guilospanck/ai-usage-bar/releases/download/v#{version}/AI-Usage-Bar-#{version}.zip"
   name "AI Usage Bar"
