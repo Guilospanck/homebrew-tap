@@ -1,19 +1,19 @@
 class OhMyOpenshell < Formula
   desc "Terminal dashboard and portable config for NVIDIA OpenShell sandboxes"
   homepage "https://github.com/Guilospanck/oh-my-openshell"
-  version "0.3.1"
+  version "0.3.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/Guilospanck/oh-my-openshell/releases/download/v#{version}/osh-v#{version}-darwin-aarch64.tar.gz"
-      sha256 "6a66a397318fbd96f853af4bf19cc773b1ca13a34ced0ac193327d3fb457dfb9"
+      sha256 "1e43c0d81fa8de005c0c2571ce0e98a6c671972a529099473a3e4a2b06af334d"
     end
   end
   on_linux do
     on_arm do
       url "https://github.com/Guilospanck/oh-my-openshell/releases/download/v#{version}/osh-v#{version}-linux-aarch64.tar.gz"
-      sha256 "644dfd2e5fb1513ef2ae7f8e1f21be48231923f4036e639726cd755e02d66c5b"
+      sha256 "eff7464035888ca91fc8a6b3e9a871ac97426f113002482007e21db2bcb1fc4d"
     end
   end
 
