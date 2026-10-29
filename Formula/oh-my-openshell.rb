@@ -1,19 +1,19 @@
 class OhMyOpenshell < Formula
   desc "Terminal dashboard and portable config for NVIDIA OpenShell sandboxes"
   homepage "https://github.com/Guilospanck/oh-my-openshell"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/Guilospanck/oh-my-openshell/releases/download/v#{version}/osh-v#{version}-darwin-aarch64.tar.gz"
-      sha256 "67e5fab08736d7b4cfbedef1d7bf6f28dd0b69321446a6720a0bb3e44f1a37fa"
+      sha256 "3dcc0680c9855ce12ca531fd655294f9909cd61011736c281792b4668000cb1d"
     end
   end
   on_linux do
     on_arm do
       url "https://github.com/Guilospanck/oh-my-openshell/releases/download/v#{version}/osh-v#{version}-linux-aarch64.tar.gz"
-      sha256 "7811d164fc997819deee0ba23d76616ac5f91a481e4dc28d9c57af8be32e465a"
+      sha256 "65b1b1fbda7a7be14feaf9673a1e14ee26ee9c8d75008845a2ba073928f34f97"
     end
   end
 
@@ -25,6 +25,9 @@ class OhMyOpenshell < Formula
     <<~EOS
       Installing osh does not install OpenShell, a container runtime or a gateway.
       Run `osh setup` when you want those (it asks before each step).
+
+      To remove everything, run `osh uninstall` before `brew uninstall`: Homebrew
+      cannot clean up OpenShell, its gateways or osh's data folder.
     EOS
   end
 
