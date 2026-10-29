@@ -2,6 +2,7 @@ class OhMyOpenshell < Formula
   desc "Terminal dashboard and portable config for NVIDIA OpenShell sandboxes"
   homepage "https://github.com/Guilospanck/oh-my-openshell"
   version "0.2.0"
+  license "MIT"
 
   on_macos do
     on_arm do
